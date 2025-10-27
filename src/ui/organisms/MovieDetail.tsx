@@ -32,7 +32,7 @@ export const MovieDetail: React.FC<MovieDetailProps> = ({ movie, onBack }) => {
         const favorites = getFavorites().filter((fav) => fav.id !== movieId);
         localStorage.setItem("favorites", JSON.stringify(favorites));
         setIsFavorite(false);
-        window.location.reload();
+        //window.location.reload();
     };
 
     useEffect(() => {
