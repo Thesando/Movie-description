@@ -1,4 +1,4 @@
-import { useQuery } from 'react-query';
+import { useQuery } from '@tanstack/react-query';
 import { getPopularMovies } from '../data/movieService';
 import { Movie } from '../domain/types';
 
